@@ -4,6 +4,7 @@
 // геометрических фигурах
 #include "classic_atd.h"
 #include "diagonal_atd.h"
+
 using namespace std;
 
 	// Ввод параметров обобщенной фигуры
@@ -18,6 +19,7 @@ using namespace std;
 		case 2:
 			sp = new diagonal;
 			break;
+		
 		default:
 			return 0;
 		}

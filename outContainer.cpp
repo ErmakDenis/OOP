@@ -9,6 +9,8 @@ using namespace std;
 		for (int i = 0; i < len; i++) {
 			ofst << i << ": ";
 			cont[i]->Out(ofst);
+			cont[i]->Summa(ofst);
+
 		}
 	}
- // end simple_shapes namespace
+ // end simple_shapes namespace

@@ -14,6 +14,7 @@
 		// переопределяем интерфейс класса
 		void InData(ifstream& ifst); // ввод
 		void Out(ofstream& ofst); // вывод
+		void Summa(ofstream& ofst);// вывод
 		classic() {} // создание без инициализации.
 	};
  // end simple_shapes namespace
