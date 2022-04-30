@@ -11,9 +11,11 @@ using namespace std;
 		Arr* sp;
 		int k;
 		ifst >> k;
+		
 		switch (k) {
 		case 1:
 			sp = new classic;
+			
 			break;
 		case 2:
 			sp = new diagonal;

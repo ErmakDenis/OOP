@@ -11,4 +11,4 @@ using namespace std;
 			cont[i]->Out(ofst);
 		}
 	}
- // end simple_shapes namespace
+ // end simple_shapes namespace

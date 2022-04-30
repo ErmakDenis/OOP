@@ -10,6 +10,7 @@
 	class classic : public Arr {
 		int x; // размер
 		int** arrC;
+		int outType;
 	public:
 		// переопределяем интерфейс класса
 		void InData(ifstream& ifst); // ввод

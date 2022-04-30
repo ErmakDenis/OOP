@@ -7,6 +7,7 @@
 	class diagonal : public Arr {
 		int x; // размер
 		int** arrD;
+		int outType;
 	public:
 		// переопределяем интерфейс класса
 		void InData(ifstream& ifst); // ввод
