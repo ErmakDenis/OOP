@@ -13,6 +13,7 @@ using namespace std;
 		static Arr* In(ifstream& ifst);
 		virtual void InData(ifstream& ifst) = 0; // ввод
 		virtual void Out(ofstream& ofst) = 0; // вывод
+		virtual void OutClassic(ofstream& ofst)=0;
 	};
  // end simple_shapes namespace
 #endif

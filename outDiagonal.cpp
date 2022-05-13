@@ -15,4 +15,6 @@ using namespace std;
 			ofst << endl;
 		}
 	}
+	void diagonal::OutClassic(ofstream& ofst) {
+	}
  // end simple_shapes namespace

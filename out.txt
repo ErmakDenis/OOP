@@ -19,5 +19,14 @@ Container contents 5 elements.
 1 0 0 
 0 2 0 
 0 0 3 
+Only classic:
+It is Classic array size of 3
+1 1 1 
+1 1 1 
+1 1 1 
+It is Classic array size of 3
+1 2 3 
+4 5 6 
+7 8 9 
 Empty container. 
 Container contents 0 elements.

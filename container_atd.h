@@ -12,6 +12,7 @@
 		void In(ifstream& ifst); // ввод
 		void Out(ofstream& ofst); // вывод
 		void Clear(); // очистка контейнера от фигур
+		void OutClassic(ofstream& ofst);
 		container(); // инициализация контейнера
 		~container() { Clear(); } // утилизация контейнера
 	};
