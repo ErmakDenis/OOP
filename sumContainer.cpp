@@ -8,3 +8,8 @@ void container::Summa(ofstream& ofst) {
 	
 }
 // end simple_shapes namespace
+int container::Summa() {
+	int sum=Summa();
+	return sum;
+
+}

@@ -13,7 +13,8 @@
 		void Out(ofstream& ofst); // вывод
 		void Clear(); // очистка контейнера от фигур
 		void Summa(ofstream& ofst);
-
+		int Summa();
+		void Sort(container* c); //container* c
 
 		container(); // инициализация контейнера
 		~container() { Clear(); } // утилизация контейнера

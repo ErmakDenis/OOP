@@ -14,6 +14,7 @@ using namespace std;
 		virtual void InData(ifstream& ifst) = 0; // ввод
 		virtual void Out(ofstream& ofst) = 0; // вывод
 		virtual void Summa(ofstream& ofst) = 0; // вычисление периметра
+		virtual int Summa() = 0;
 	};
  // end simple_shapes namespace
 #endif
