@@ -16,6 +16,8 @@ using namespace std;
 		virtual void Out(ofstream& ofst) = 0; // вывод
 		virtual void Summa(ofstream& ofst) = 0; // вычисление периметра
 		virtual int Summa() = 0;
+		virtual void OutClassic(ofstream& ofst)=0;
+
 	};
  // end simple_shapes namespace
 #endif

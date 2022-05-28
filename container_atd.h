@@ -15,7 +15,7 @@
 		void Summa(ofstream& ofst);
 		int Summa();
 		void Sort(container* c); //container* c
-
+		void OutClassic(ofstream& ofst);
 		container(); // инициализация контейнера
 		~container() { Clear(); } // утилизация контейнера
 	};

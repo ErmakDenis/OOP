@@ -17,6 +17,7 @@
 		void Out(ofstream& ofst); // вывод
 		void Summa(ofstream& ofst);// вывод
 		int Summa();
+		void OutClassic(ofstream& ofst);
 		classic() {} // создание без инициализации.
 	};
  // end simple_shapes namespace

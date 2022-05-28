@@ -36,3 +36,15 @@ using namespace std;
 		//	<< ", y = " << y << endl;
 	}
  // end simple_shapes namespace
+
+	void classic::OutClassic(ofstream& ofst) {
+
+		ofst << "It is Classic array size of " << x << endl;
+		for (int i = 0; i < x; i++)
+		{
+			for (int j = 0; j < x; j++)
+				ofst << arrC[i][j] << " ";
+			ofst << endl;
+		}
+		//	<< ", y = " << y << endl;
+	}
