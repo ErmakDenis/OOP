@@ -18,8 +18,10 @@ int main(int argc, char* argv[])
 	container c;
 	c.In(ifst);
 	ofst << "Filled container. " << endl;
+	c.Sort(&c);
 	c.Out(ofst);
 	c.Clear();
+
 	ofst << "Empty container. " << endl;
 	c.Out(ofst);
 	cout << "Stop" << endl;

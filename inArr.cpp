@@ -4,7 +4,6 @@
 // геометрических фигурах
 #include "classic_atd.h"
 #include "diagonal_atd.h"
-
 #include "triangle_atd.h"
 using namespace std;
 
@@ -22,6 +21,7 @@ using namespace std;
 		case 2:
 			sp = new diagonal;
 			break;
+
 
 		case 3:
 			sp = new triangle;
