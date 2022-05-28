@@ -6,6 +6,7 @@ using namespace std;
 	void diagonal::InData(ifstream& ifst) {
 		ifst >> x;
 		arrD = new int* [x];
+		ifst >> outType;
 		for (int i = 0; i < x; i++)
 		{
 			arrD[i] = new int[x];
