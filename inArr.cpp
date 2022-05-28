@@ -4,6 +4,8 @@
 // геометрических фигурах
 #include "classic_atd.h"
 #include "diagonal_atd.h"
+
+#include "triangle_atd.h"
 using namespace std;
 
 	// Ввод параметров обобщенной фигуры
@@ -17,6 +19,10 @@ using namespace std;
 			break;
 		case 2:
 			sp = new diagonal;
+			break;
+
+		case 3:
+			sp = new triangle;
 			break;
 		default:
 			return 0;
